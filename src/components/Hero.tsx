@@ -61,7 +61,7 @@ export default function Hero({
             {primaryCTA && (
               <Link
                 href={primaryCTA.href}
-                className="inline-block rounded-md bg-amber px-8 py-3.5 text-base font-semibold text-white transition-colors hover:bg-amber-dark"
+                className="inline-block rounded-md border-2 border-transparent bg-amber px-8 py-3.5 text-base font-semibold text-white transition-colors hover:bg-amber-dark"
               >
                 {primaryCTA.text}
               </Link>
